@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+       
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+nav span {
+    display: inline-block;
+    margin-right: 25px;    
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    flex-grow: 1;
+    align-items: center;   
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Container styles */
+
+.container {
+    display: flex;
+    width: 1200px;
+    padding-top: 69px;
+    flex-direction: column;
+}
+
+#mission {
+    display: flex;
+    background-image: url("../img/mission.jpg");
+    width: 1200px;
+    height: 700px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission .text {
+    width: 100%;
+    background: black;
+    text-align: center;
+}
+
+#tea_month {
+    display: flex;
+    margin-top: 25px;
+    width: 1000px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#tea_month .text {
+    text-align: center;
+}
+
+#tea_month .tea_month_images {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.tea_month_images .tm_img img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea_month_images .tm_img h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#locations {
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    background-image: url("../img/locations.jpg");
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations .location {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+}
+
+footer #contact {
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+}
+
+footer .copy {
+    margin-left: 20px;
+}
